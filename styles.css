@@ -1,0 +1,102 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 15px;
+    font-family: "Montserrat";
+    color: white;
+    background-color: rgb(20, 4, 34); 
+}
+
+
+li {
+    list-style: none;
+    display: inline-block;
+    margin: 0.25%;
+}
+
+a {
+    text-decoration: none ;
+    color: aliceblue;
+}
+
+
+.about {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+article {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+div {
+    padding: 3px;
+}
+
+.project-box {
+    display: flex;
+    word-wrap: normal;
+    flex-flow: column nowrap;
+    padding: 5px;
+    width: 25%;
+    margin: 0.5%;
+}
+
+.chat {
+    background-color: green;
+    border: none;
+    padding: 8px;
+    border-radius: 3px;
+    width: 20%;
+}
+
+.chat a {
+    background-color: transparent;
+    text-decoration: none;
+    color: aliceblue;
+}
+h3 {
+   width: 90%;
+   font-size: medium;
+}
+
+article {
+    width: 99%;
+    margin: 0.5%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+	vertical-align: middle;
+  }
+  
+  th, td,.project-box {
+    border: 1px solid purple;
+    padding: 5px;
+  }
+
+  thead {
+    text-transform: uppercase;
+	letter-spacing: 2%;
+  }
+
+  img {
+    border-radius: 50%;
+    height: 80px;
+  }
